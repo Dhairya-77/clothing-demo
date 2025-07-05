@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       setUser({ username });
       // Redirect to inventory page after successful login
       setTimeout(() => {
-        window.location.href = '/inventory';
+        window.location.href = '/clothing-demo/inventory';
       }, 100);
       return true;
     }

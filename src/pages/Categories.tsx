@@ -32,7 +32,7 @@ const Categories = () => {
               whileHover={{ scale: 1.05 }}
               className="group cursor-pointer"
             >
-              <Link to={`/products?category=${encodeURIComponent(category.name)}`}>
+              <Link to={`clothing-demo/products?category=${encodeURIComponent(category.name)}`}>
                 <div className="relative overflow-hidden rounded-2xl bg-gray-800 shadow-lg group-hover:shadow-xl transition-all duration-300">
                   <div className="aspect-[4/5] overflow-hidden">
                     <motion.img
@@ -73,7 +73,7 @@ const Categories = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-16"
         >
-          <Link to="/products">
+          <Link to="clothing-demo/products">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

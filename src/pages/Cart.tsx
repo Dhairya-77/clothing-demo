@@ -17,7 +17,7 @@ const Cart = () => {
           <p className="text-gray-600 dark:text-gray-400 mb-8">
             Looks like you haven't added anything to your cart yet.
           </p>
-          <Link to="/products">
+          <Link to="clothing-demo/products">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -149,7 +149,7 @@ const Cart = () => {
               </div>
             </div>
 
-            <Link to="/checkout">
+            <Link to="clothing-demo/checkout">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -159,7 +159,7 @@ const Cart = () => {
               </motion.button>
             </Link>
 
-            <Link to="/products">
+            <Link to="clothing-demo/products">
               <button className="w-full mt-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 py-4 rounded-full text-lg font-semibold hover:border-yellow-400 transition-colors">
                 Continue Shopping
               </button>

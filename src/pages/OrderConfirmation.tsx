@@ -80,7 +80,7 @@ const OrderConfirmation = () => {
           transition={{ delay: 0.7, duration: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Link to="/products">
+          <Link to="clothing-demo/products">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -91,7 +91,7 @@ const OrderConfirmation = () => {
             </motion.button>
           </Link>
 
-          <Link to="/">
+          <Link to="clothing-demo/">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

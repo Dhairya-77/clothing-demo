@@ -130,7 +130,7 @@ const Home = () => {
                 whileHover={{ scale: 1.05 }}
                 className="group cursor-pointer"
               >
-                <Link to="/categories">
+                <Link to="clothing-demo/categories">
                   <div className="relative overflow-hidden rounded-2xl bg-gray-800 aspect-square">
                     <img
                       src={category.image}
@@ -156,7 +156,7 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <Link to="/categories">
+            <Link to="clothing-demo/categories">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

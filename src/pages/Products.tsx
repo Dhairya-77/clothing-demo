@@ -141,7 +141,7 @@ const Products = () => {
                   whileHover={{ scale: 1.02 }}
                   className="group cursor-pointer"
                 >
-                  <Link to={`/product/${product.id}`}>
+                  <Link to={`clothing-demo/product/${product.id}`}>
                     <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300">
                       <div className="aspect-square overflow-hidden">
                         <motion.img

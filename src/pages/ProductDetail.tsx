@@ -19,7 +19,7 @@ const ProductDetail = () => {
       <div className="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Product not found</h1>
-          <Link to="/products" className="text-yellow-600 dark:text-yellow-400 hover:underline">
+          <Link to="clothing-demo/products" className="text-yellow-600 dark:text-yellow-400 hover:underline">
             Back to Products
           </Link>
         </div>
@@ -40,7 +40,7 @@ const ProductDetail = () => {
     <div className="min-h-screen bg-white dark:bg-gray-900 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link
-          to="/products"
+          to="clothing-demo/products"
           className="inline-flex items-center text-yellow-600 dark:text-yellow-400 hover:text-yellow-700 dark:hover:text-yellow-300 mb-8"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
@@ -222,7 +222,7 @@ const ProductDetail = () => {
               {relatedProducts.map((relatedProduct) => (
                 <Link
                   key={relatedProduct.id}
-                  to={`/product/${relatedProduct.id}`}
+                  to={`clothing-demo/product/${relatedProduct.id}`}
                   className="group"
                 >
                   <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300">

@@ -133,7 +133,6 @@ export const products: Product[] = [
     stock: 11,
     rating: 4.2
   },
-  // Dental Items
   {
     id: 13,
     name: "Electric Toothbrush",

@@ -51,7 +51,7 @@ const App = () => {
                   <Navbar />
                   <AnimatePresence mode="wait">
                     <Routes>
-                      <Route path="clothing-demo/" element={<Home />} />
+                      <Route path="/clothing-demo/" element={<Home />} />
                       <Route path="clothing-demo/categories" element={<Categories />} />
                       <Route path="clothing-demo/products" element={<Products />} />
                       <Route path="clothing-demo/product/:id" element={<ProductDetail />} />
