@@ -33,7 +33,7 @@ const Home = () => {
   const categories = [
     { name: 'T-Shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400' },
     { name: 'Shirts', image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400' },
-    { name: 'Pants', image: '<a href="https://www.vecteezy.com/photo/44491558-a-simple-turtleneck-sweater-paired-with-highwaisted-trousers-and-loafers-showcasing-the-simplicity-and-versatility-of-genderfluid-fashion-background-a-peaceful-garden-representin">a-simple-turtleneck-sweater-paired-with-highwaisted-trousers-and-loafers-showcasing-the-simplicity-and-versatility-of-genderfluid-fashion-background-a-peaceful-garden-representin Stock photos by Vecteezy</a>' },
+    { name: 'Pants', image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400'},
     { name: 'Hoodies', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400' }
   ];
 
