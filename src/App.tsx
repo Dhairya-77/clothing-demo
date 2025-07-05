@@ -60,6 +60,7 @@ const App = () => {
                       <Route path="/order-confirmation" element={<OrderConfirmation />} />
                       <Route path="/contact" element={<Contact />} />
                       <Route path="/inventory" element={<Inventory />} />
+                      <Route path="*" element={<NotFound />} />
                     </Routes>
                   </AnimatePresence>
                   <Toaster />
