@@ -19,10 +19,10 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Categories', path: '/categories' },
-    { name: 'Products', path: '/products' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Home', path: 'clothing-demo/' },
+    { name: 'Categories', path: 'clothing-demo/categories' },
+    { name: 'Products', path: 'clothing-demo/products' },
+    { name: 'Contact', path: 'clothing-demo/contact' },
   ];
 
   // Add inventory to nav items if user is logged in

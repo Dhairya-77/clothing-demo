@@ -51,15 +51,15 @@ const App = () => {
                   <Navbar />
                   <AnimatePresence mode="wait">
                     <Routes>
-                      <Route path="/" element={<Home />} />
-                      <Route path="/categories" element={<Categories />} />
-                      <Route path="/products" element={<Products />} />
-                      <Route path="/product/:id" element={<ProductDetail />} />
-                      <Route path="/cart" element={<Cart />} />
-                      <Route path="/checkout" element={<Checkout />} />
-                      <Route path="/order-confirmation" element={<OrderConfirmation />} />
-                      <Route path="/contact" element={<Contact />} />
-                      <Route path="/inventory" element={<Inventory />} />
+                      <Route path="clothing-demo/" element={<Home />} />
+                      <Route path="clothing-demo/categories" element={<Categories />} />
+                      <Route path="clothing-demo/products" element={<Products />} />
+                      <Route path="clothing-demo/product/:id" element={<ProductDetail />} />
+                      <Route path="clothing-demo/cart" element={<Cart />} />
+                      <Route path="clothing-demo/checkout" element={<Checkout />} />
+                      <Route path="clothing-demo/order-confirmation" element={<OrderConfirmation />} />
+                      <Route path="clothing-demo/contact" element={<Contact />} />
+                      <Route path="clothing-demo/inventory" element={<Inventory />} />
                       <Route path="*" element={<NotFound />} />
                     </Routes>
                   </AnimatePresence>
