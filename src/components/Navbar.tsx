@@ -27,7 +27,7 @@ const Navbar = () => {
 
   // Add inventory to nav items if user is logged in
   if (isAuthenticated) {
-    navItems.push({ name: 'Inventory', path: 'clothing-demo/inventory' });
+    navItems.push({ name: 'Inventory', path: '/clothing-demo/inventory' });
   }
 
   const isActive = (path: string) => location.pathname === path;
@@ -137,7 +137,7 @@ const Navbar = () => {
             {/* Mobile menu button */}
             <div className="md:hidden flex items-center space-x-2">
               {/* Mobile Cart */}
-              <Link to="/cart" className="relative">
+              <Link to="/clothing-demo/cart" className="relative">
                 <div className="p-2 rounded-lg hover:bg-gray-800 transition-colors">
                   <ShoppingCart className="h-6 w-6 text-gray-300" />
                   {state.items.length > 0 && (
