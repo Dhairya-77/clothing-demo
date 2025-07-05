@@ -58,7 +58,7 @@ const Search = ({ isOpen, onClose }: SearchProps) => {
               {filteredProducts.slice(0, 8).map((product) => (
                 <Link
                   key={product.id}
-                  to={`/product/${product.id}`}
+                  to={`/clothing-demo/product/${product.id}`}
                   onClick={onClose}
                   className="flex items-center space-x-4 p-3 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
                 >

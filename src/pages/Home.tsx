@@ -88,7 +88,7 @@ const Home = () => {
               <ArrowRight className="w-5 h-5" />
             </motion.button>
 
-            <Link to="/products">
+            <Link to="/clothing-demo/products">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -130,7 +130,7 @@ const Home = () => {
                 whileHover={{ scale: 1.05 }}
                 className="group cursor-pointer"
               >
-                <Link to="clothing-demo/categories">
+                <Link to="/clothing-demo/categories">
                   <div className="relative overflow-hidden rounded-2xl bg-gray-800 aspect-square">
                     <img
                       src={category.image}
@@ -156,7 +156,7 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <Link to="clothing-demo/categories">
+            <Link to="/clothing-demo/categories">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -237,9 +237,9 @@ const Home = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">Shop</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><Link to="/categories" className="hover:text-yellow-400 transition-colors">Men's Fashion</Link></li>
-                <li><Link to="/products" className="hover:text-yellow-400 transition-colors">New Arrivals</Link></li>
-                <li><Link to="/products" className="hover:text-yellow-400 transition-colors">Sale</Link></li>
+                <li><Link to="/clothing-demo/categories" className="hover:text-yellow-400 transition-colors">Men's Fashion</Link></li>
+                <li><Link to="/clothing-demo/products" className="hover:text-yellow-400 transition-colors">New Arrivals</Link></li>
+                <li><Link to="/clothing-demo/products" className="hover:text-yellow-400 transition-colors">Sale</Link></li>
               </ul>
             </div>
 
@@ -251,7 +251,7 @@ const Home = () => {
                 <li><a href="#" className="hover:text-yellow-400 transition-colors">Shipping Info</a></li>
                 <li><a href="#" className="hover:text-yellow-400 transition-colors">Returns</a></li>
                 <li><a href="#" className="hover:text-yellow-400 transition-colors">FAQ</a></li>
-                <li><Link to="/contact" className="hover:text-yellow-400 transition-colors">Contact Us</Link></li>
+                <li><Link to="/clothing-demo/contact" className="hover:text-yellow-400 transition-colors">Contact Us</Link></li>
               </ul>
             </div>
 

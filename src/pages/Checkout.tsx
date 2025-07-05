@@ -51,7 +51,7 @@ const Checkout = () => {
       setIsProcessing(false);
       toast.success('Order placed successfully!');
       
-      navigate('clothing-demo/order-confirmation', {
+      navigate('/clothing-demo/order-confirmation', {
         state: {
           orderTotal: totalAmount,
           orderItems: totalItems

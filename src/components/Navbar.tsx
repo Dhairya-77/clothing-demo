@@ -19,15 +19,15 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', path: 'clothing-demo/' },
-    { name: 'Categories', path: 'clothing-demo/categories' },
-    { name: 'Products', path: 'clothing-demo/products' },
-    { name: 'Contact', path: 'clothing-demo/contact' },
+    { name: 'Home', path: '/clothing-demo/' },
+    { name: 'Categories', path: '/clothing-demo/categories' },
+    { name: 'Products', path: '/clothing-demo/products' },
+    { name: 'Contact', path: '/clothing-demo/contact' },
   ];
 
   // Add inventory to nav items if user is logged in
   if (isAuthenticated) {
-    navItems.push({ name: 'Inventory', path: '/inventory' });
+    navItems.push({ name: 'Inventory', path: 'clothing-demo/inventory' });
   }
 
   const isActive = (path: string) => location.pathname === path;
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/clothing-demo/" className="flex items-center space-x-2">
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="text-xl md:text-2xl font-bold text-white"
@@ -115,7 +115,7 @@ const Navbar = () => {
               )}
 
               {/* Cart */}
-              <Link to="/cart" className="relative">
+              <Link to="/clothing-demo/cart" className="relative">
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   className="p-2 rounded-lg hover:bg-gray-800 transition-colors"
