@@ -32,10 +32,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const login = (username: string, password: string): boolean => {
     if (username === 'dev' && password === 'dev') {
       setUser({ username });
-      // Redirect to inventory page after successful login
-      setTimeout(() => {
-        window.location.href = '/clothing-demo/inventory';
-      }, 100);
+      
       return true;
     }
     return false;
