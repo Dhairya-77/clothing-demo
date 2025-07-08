@@ -49,7 +49,7 @@ export const products: Product[] = [
     id: 5,
     name: "Traditional Sherwani",
     price: 4999,
-    image: "https://images.unsplash.com/photo-1594736797933-d0151ba63cd9?w=400",
+    image: "https://shreeman.in/cdn/shop/files/1J8A4421.jpg?v=1728560348&width=400",
     category: "Sherwanis",
     description: "Elegant traditional sherwani with intricate embroidery work for special occasions.",
     sizes: ["S", "M", "L", "XL", "XXL"],
@@ -93,7 +93,7 @@ export const products: Product[] = [
     id: 9,
     name: "Graphic Print Tee",
     price: 1199,
-    image: "https://images.unsplash.com/photo-1583743814966-8936f37f7ae2?w=400",
+    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
     category: "T-Shirts",
     description: "Trendy graphic print t-shirt with contemporary design and premium fabric.",
     sizes: ["S", "M", "L", "XL", "XXL"],
@@ -133,61 +133,61 @@ export const products: Product[] = [
     stock: 11,
     rating: 4.2
   },
-  {
-    id: 13,
-    name: "Electric Toothbrush",
-    price: 4999,
-    image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=400",
-    category: "Dental",
-    description: "Advanced electric toothbrush with multiple cleaning modes and timer.",
-    sizes: ["Standard"],
-    stock: 25,
-    rating: 4.7
-  },
-  {
-    id: 14,
-    name: "Dental Floss Pack",
-    price: 299,
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400",
-    category: "Dental",
-    description: "Premium dental floss for effective plaque removal and gum health.",
-    sizes: ["Standard"],
-    stock: 100,
-    rating: 4.5
-  },
-  {
-    id: 15,
-    name: "Whitening Toothpaste",
-    price: 599,
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
-    category: "Dental",
-    description: "Professional whitening toothpaste for brighter, healthier teeth.",
-    sizes: ["Standard"],
-    stock: 75,
-    rating: 4.3
-  },
-  {
-    id: 16,
-    name: "Mouthwash",
-    price: 399,
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
-    category: "Dental",
-    description: "Antibacterial mouthwash for complete oral hygiene protection.",
-    sizes: ["500ml", "1L"],
-    stock: 50,
-    rating: 4.1
-  },
-  {
-    id: 17,
-    name: "Dental Care Kit",
-    price: 1299,
-    image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400",
-    category: "Dental",
-    description: "Complete dental care kit with toothbrush, paste, and floss.",
-    sizes: ["Standard"],
-    stock: 3,
-    rating: 4.6
-  }
+  // {
+  //   id: 13,
+  //   name: "Electric Toothbrush",
+  //   price: 4999,
+  //   image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=400",
+  //   category: "Dental",
+  //   description: "Advanced electric toothbrush with multiple cleaning modes and timer.",
+  //   sizes: ["Standard"],
+  //   stock: 25,
+  //   rating: 4.7
+  // },
+  // {
+  //   id: 14,
+  //   name: "Dental Floss Pack",
+  //   price: 299,
+  //   image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400",
+  //   category: "Dental",
+  //   description: "Premium dental floss for effective plaque removal and gum health.",
+  //   sizes: ["Standard"],
+  //   stock: 100,
+  //   rating: 4.5
+  // },
+  // {
+  //   id: 15,
+  //   name: "Whitening Toothpaste",
+  //   price: 599,
+  //   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+  //   category: "Dental",
+  //   description: "Professional whitening toothpaste for brighter, healthier teeth.",
+  //   sizes: ["Standard"],
+  //   stock: 75,
+  //   rating: 4.3
+  // },
+  // {
+  //   id: 16,
+  //   name: "Mouthwash",
+  //   price: 399,
+  //   image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
+  //   category: "Dental",
+  //   description: "Antibacterial mouthwash for complete oral hygiene protection.",
+  //   sizes: ["500ml", "1L"],
+  //   stock: 50,
+  //   rating: 4.1
+  // },
+  // {
+  //   id: 17,
+  //   name: "Dental Care Kit",
+  //   price: 1299,
+  //   image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400",
+  //   category: "Dental",
+  //   description: "Complete dental care kit with toothbrush, paste, and floss.",
+  //   sizes: ["Standard"],
+  //   stock: 3,
+  //   rating: 4.6
+  // }
 ];
 
 export const categories = [
@@ -213,7 +213,7 @@ export const categories = [
   },
   {
     name: "Sherwanis",
-    image: "https://images.unsplash.com/photo-1594736797933-d0151ba63cd9?w=300",
+    image: "https://shreeman.in/cdn/shop/files/1J8A4421.jpg?v=1728560348&width=300",
     count: products.filter(p => p.category === "Sherwanis").length
   },
   {
@@ -231,9 +231,9 @@ export const categories = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300",
     count: products.filter(p => p.category === "Blazers").length
   },
-  {
-    name: "Dental",
-    image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=300",
-    count: products.filter(p => p.category === "Dental").length
-  }
+  // {
+  //   name: "Dental",
+  //   image: "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=300",
+  //   count: products.filter(p => p.category === "Dental").length
+  // }
 ];
